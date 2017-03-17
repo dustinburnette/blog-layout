@@ -46,3 +46,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+
+
+
+
+.head{
+  width: 1060px;
+  height: 120px;
+  background-image: url('https://guidelive.imgix.net/1432658176-IMG_2828-Edit.jpg');
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.circle{
+  height:75px;
+  width:75px;
+  border-radius:50%;
+  line-height: 5em;
+  text-align:center;
+  position: absolute;
+  left:0;
+  margin-left: 100px;
+  background-color: black;
+  border: solid 3px white;
+  color:white;
+  margin-top: -50px;
+
+}
+.columns{
+  width:90%;
+  padding-top: 20px;
+  overflow: auto;
+  text-align: center;
+
+
+
+}
+.sidebar{
+  width:15%;
+  outline: solid 1px red;
+  float:left;
+  min-height: 400px;
+  margin-left: 50px;
+  margin-top: 70px;
+
+}
+.main-content{
+  width:75%;
+  outline:solid 1px red;
+  float:left;
+  min-height: 400px;
+  margin-right:40px;
+  margin-top: 70px;
+}
