@@ -56,12 +56,13 @@ table {
 
 .head{
   width: 1060px;
-  height: 120px;
-  background-image: url('https://guidelive.imgix.net/1432658176-IMG_2828-Edit.jpg');
+  height: 180px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Veil_Nebula_-_NGC6960.jpg/2560px-Veil_Nebula_-_NGC6960.jpg');
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   background-size: cover;
   background-repeat: no-repeat;
+	background-position: center;
 
 }
 
@@ -77,7 +78,7 @@ table {
   background-color: black;
   border: solid 3px white;
   color:white;
-  margin-top: -50px;
+  margin-top: -40px;
 
 }
 .columns{
@@ -96,7 +97,16 @@ table {
   min-height: 400px;
   margin-left: 50px;
   margin-top: 70px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: .87em;
+	text-align: left;
+	color:#6C6C6B;
+	line-height: 14px;
 
+}
+.sidebar p{
+	margin-left: 50px;
 }
 .main-bar{
   width:75%;
@@ -105,4 +115,26 @@ table {
   min-height: 400px;
   margin-right:40px;
   margin-top: 70px;
+}
+.sidebar-content{
+	font-family: serif;
+	font-weight: normal;
+	color:#AAB2C1;
+	font-size:.85em;
+
+}
+.search{
+	font-size:.75em;
+}
+input{
+	width:110px;
+	margin-left: 40px;
+	background-image: url('http://www.clipartkid.com/images/775/search-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-643l5L-clipart.png');
+	background-position: right 20px;
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: .75em;
+
+
 }
